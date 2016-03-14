@@ -36,6 +36,6 @@ public class Add_and_Search_Word{
                   return false;
                 }
             }
-            return node.word != null;
+            return node.isEnd;
    }
 }
